@@ -251,8 +251,12 @@ async function loadUser() {
     if (data.success && data.user) {
       const el = document.getElementById('user-greeting');
       if (el) el.textContent = 'Logged in as ' + data.user.name;
+    } else {
+      window.location.href = '/login.html';
     }
-  } catch(e) {}
+  } catch(e) {
+    window.location.href = '/login.html';
+  }
 }
 
 // ─── App Boot ─────────────────────────────────────────────
