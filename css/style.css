@@ -859,10 +859,13 @@ svg text { fill: var(--green-700); }
   .charts-grid, .bottom-grid { grid-template-columns: 1fr; }
   .full-lb-grid { grid-template-columns: 1fr; }
 }
-
 @media (max-width: 768px) {
-  .sidebar { transform: translateX(-100%); }
-  .main { margin-left: 0; padding: 20px; }
+  body { flex-direction: column; overflow: auto; }
+  .sidebar { 
+    width: 100%; height: auto; position: relative; 
+    border-right: none; border-bottom: 1px solid rgba(15,81,50,0.1);
+  }
+  .main { margin-left: 0; padding: 20px; height: auto; overflow: visible; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .admin-grid, .suggestions-page-grid { grid-template-columns: 1fr; }
 }
