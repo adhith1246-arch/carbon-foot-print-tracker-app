@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "department": "Sports Complex",
+    "date": "2026-08-03",
+    "electricity_kwh": 366,
+    "diesel_litres": 525,
+    "vehicles_entered": 25,
+    "veg_meals": 25,
+    "nonveg_meals": 22,
+    "food_waste_kg": 5,
+    "water_kl": 55,
+    "co2": {
+      "electricity": 300.12,
+      "diesel": 1407.0,
+      "vehicles": 10.5,
+      "food": 78.5,
+      "food_waste": 12.5,
+      "water": 18.7,
+      "total": 1827.32
+    },
+    "submitted_at": "2026-08-03T21:12:33.072197"
+  },
+  {
+    "id": 2,
+    "department": "Canteen",
+    "date": "2026-08-03",
+    "electricity_kwh": -4,
+    "diesel_litres": -3,
+    "vehicles_entered": -3,
+    "veg_meals": -30,
+    "nonveg_meals": -2,
+    "food_waste_kg": 2,
+    "water_kl": -4,
+    "co2": {
+      "electricity": -3.28,
+      "diesel": -8.04,
+      "vehicles": -1.26,
+      "food": -21.0,
+      "food_waste": 5.0,
+      "water": -1.36,
+      "total": -29.94
+    },
+    "submitted_at": "2026-08-03T21:20:21.679363"
+  },
+  {
+    "id": 3,
+    "department": "Main Building",
+    "date": "2026-08-04",
+    "electricity_kwh": 344,
+    "diesel_litres": 23,
+    "vehicles_entered": 45,
+    "veg_meals": 66,
+    "nonveg_meals": 11,
+    "food_waste_kg": 32,
+    "water_kl": 56,
+    "co2": {
+      "electricity": 282.08,
+      "diesel": 61.64,
+      "vehicles": 18.9,
+      "food": 66.0,
+      "food_waste": 80.0,
+      "water": 19.04,
+      "total": 527.66
+    },
+    "submitted_at": "2026-08-04T14:31:05.785386"
+  },
+  {
+    "id": 4,
+    "department": "H7 Hostel",
+    "date": "2026-08-04",
+    "electricity_kwh": 5565,
+    "diesel_litres": 55,
+    "vehicles_entered": 454,
+    "veg_meals": 5454,
+    "nonveg_meals": 558,
+    "food_waste_kg": 5454545,
+    "water_kl": 556,
+    "co2": {
+      "electricity": 4563.3,
+      "diesel": 147.4,
+      "vehicles": 190.68,
+      "food": 4401.0,
+      "food_waste": 13636362.5,
+      "water": 189.04,
+      "total": 13645853.92
+    },
+    "submitted_at": "2026-08-04T17:26:47.747399"
+  }
+]
